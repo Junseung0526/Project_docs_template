@@ -1,6 +1,6 @@
 # 기능 명세
 
-> [← 조직 홈](https://github.com/{{ORG}}) · [아키텍처](ARCHITECTURE.md) · [기능 명세](FEATURES.md) · [로드맵](ROADMAP.md) · [협업 가이드](../CONTRIBUTING.md)
+> [← 조직 홈](https://github.com/Junseung0526) · [아키텍처](ARCHITECTURE.md) · [기능 명세](FEATURES.md) · [로드맵](ROADMAP.md) · [협업 가이드](../CONTRIBUTING.md)
 
 > 각 기능이 시스템 어디서 처리되는지는 [ARCHITECTURE.md](ARCHITECTURE.md#4-모듈-구성)를 참고하세요.
 

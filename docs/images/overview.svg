@@ -7,7 +7,7 @@
   <rect x="0" y="0" width="960" height="420" rx="16" fill="#ffffff"/>
   <rect x="0.5" y="0.5" width="959" height="419" rx="16" fill="none" stroke="#e2e8f0"/>
 
-  <text x="480" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">{{PROJECT_NAME}} · 한눈에 보기</text>
+  <text x="480" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#0f172a">Junseung0526 · 한눈에 보기</text>
   <text x="480" y="64" text-anchor="middle" font-size="13" fill="#64748b">무엇을 받아서, 어떻게 처리하고, 무엇을 돌려주는지 한 줄로</text>
 
   <!-- ① 입력: 칸을 늘리려면 rect/text 묶음을 복사해 y를 68씩 내리세요 -->

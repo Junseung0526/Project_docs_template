@@ -1,6 +1,6 @@
 # 시스템 아키텍처
 
-> [← 조직 홈](https://github.com/{{ORG}}) · [아키텍처](ARCHITECTURE.md) · [기능 명세](FEATURES.md) · [로드맵](ROADMAP.md) · [협업 가이드](../CONTRIBUTING.md)
+> [← 조직 홈](https://github.com/Junseung0526) · [아키텍처](ARCHITECTURE.md) · [기능 명세](FEATURES.md) · [로드맵](ROADMAP.md) · [협업 가이드](../CONTRIBUTING.md)
 
 > **문서 상태**: 구현 기준 설계. 구조나 [기술 스택](#7-기술-스택)이 바뀌면 코드보다 이 문서를 먼저 갱신합니다.
 
@@ -19,7 +19,7 @@
 
 ## 1. 한눈에 보기
 
-![{{PROJECT_NAME}} 한눈에 보기](images/overview.svg)
+![Junseung0526 한눈에 보기](images/overview.svg)
 
 <!-- 무엇을 받아서(입력) 무엇을 하고(처리) 무엇을 내보내는지(출력) 두 문장으로. -->
 사용자가 **무엇을** 넣으면 시스템이 **어떤 처리**를 거쳐 **어떤 결과**를 돌려주는지 두 문장으로 적습니다.

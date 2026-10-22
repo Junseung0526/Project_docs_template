@@ -1,6 +1,6 @@
 # 개발 로드맵 및 검증 시나리오
 
-> [← 조직 홈](https://github.com/{{ORG}}) · [아키텍처](ARCHITECTURE.md) · [기능 명세](FEATURES.md) · [로드맵](ROADMAP.md) · [협업 가이드](../CONTRIBUTING.md)
+> [← 조직 홈](https://github.com/Junseung0526) · [아키텍처](ARCHITECTURE.md) · [기능 명세](FEATURES.md) · [로드맵](ROADMAP.md) · [협업 가이드](../CONTRIBUTING.md)
 
 ## 단계별 구현 로드맵
 

@@ -1,6 +1,6 @@
 # 협업 가이드
 
-> [← 조직 홈](https://github.com/{{ORG}}) · [아키텍처](docs/ARCHITECTURE.md) · [기능 명세](docs/FEATURES.md) · [로드맵](docs/ROADMAP.md)
+> [← 조직 홈](https://github.com/Junseung0526) · [아키텍처](docs/ARCHITECTURE.md) · [기능 명세](docs/FEATURES.md) · [로드맵](docs/ROADMAP.md)
 
 ## 0. 팀 역할
 

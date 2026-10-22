@@ -1,0 +1,29 @@
+# 첫 push 때 문서의 {{ORG}}, {{PROJECT_NAME}} 를 조직 ID로 바꿔 커밋합니다.
+# 치환할 게 없으면 아무것도 하지 않으므로 그대로 둬도 되고, 지워도 됩니다.
+name: template-setup
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Replace placeholders
+        env:
+          OWNER: ${{ github.repository_owner }}
+        run: |
+          files=$(grep -rlE '\{\{(ORG|PROJECT_NAME)\}\}' . --exclude-dir=.git --exclude-dir=workflows --exclude=TEMPLATE_GUIDE.md || true)
+          if [ -z "$files" ]; then echo "치환할 자리표시자 없음"; exit 0; fi
+          sed -i -e "s/{{ORG}}/$OWNER/g" -e "s/{{PROJECT_NAME}}/$OWNER/g" $files
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "chore: 템플릿 자리표시자를 조직 이름으로 치환"
+          git push

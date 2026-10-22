@@ -1,0 +1,30 @@
+name: 버그 리포트
+description: 예상과 다르게 동작하는 문제
+title: "[Fix] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 문제인가요
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법
+      value: |
+        1.
+        2.
+        3.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대한 동작
+  - type: textarea
+    id: env
+    attributes:
+      label: 환경 / 스크린샷
+      description: 브라우저, OS, 에러 로그 등 (개인정보는 지우고 올려 주세요)
